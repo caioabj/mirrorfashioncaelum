@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="PT-BR   ">
+
+<head>
+    <title>Checkout Mirror Fashoin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="XS-UA-Compatible" content="ie=edge">
+    <title>Produto da Mirror Fashoin</title>
+    <!-- <link rel="stylesheet" href="../mirror-fashion/css/reset.css"> -->
+    <link rel="stylesheet" href="css/css/bootstrap.css">
+    <link rel="stylesheet" hfef="css/open-iconic-bootstrap.css">
+    <link rel="stylesheet" hfef="checkout.css">
+
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>Ótima escolha!</h1>
+            <p> Obrigado pro comrpar na Mirror-fashion! Preencha seus dados para efetivar a compra.</p>
+
+        </div>
+    </div>
+
+    <div class="=row">
+    <div class="container">
+
+        <form>
+            <fieldset>Dados Pessoais</fieldset>
+            <fieldset>
+                <legend>Preencha as Informações</legend>
+                <div class="row">
+                    <div class="form-group col-sm-6 cold-lg-6">
+                        <label for="numero-cartao"> Número - CVV</label>
+                        <input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
+                    </div>
+                    <div class="form-group col-sm-6 cold-lg-6">
+
+                        <label for="bandeira-cartao">Bandeira</label>
+
+                        <select class="custom-select" id="bandeira-cartao">
+                            <option disabled selected>Selecione uma opção</option>
+                            <option value="master">Mastecard</option>
+                            <option value="visa">VISA</option>
+                            <option value="amex">American Express</option>
+                        </select>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-sm-6 cold-md-6">
+                        <label for="nome"> Nome completo</label>
+                        <input type="text" class="form-control" id="nome" name="nome" autofocus required>
+                    </div>
+
+                    <div class="form-group  col-sm-6 cold-md-6">
+                        <label for="validade-cartao">Validade</label>
+                        <input type="month" class="form-control" id="validade-cartao" name="validade-cartao">
+                    </div>
+                </div>
+            </fieldset>
+            <div class="row">
+                <div class="form-group col-sm-4 cold-md-4">
+                    <label for="email">Email</label>
+                    <input type="email" required class="form-control" id="email" name="email"
+                        placeholder="email@exemplo.com.br">
+                </div>
+
+
+                <div class="form-group col-sm-4 cold-md-4">
+                    <label for="cpf"> CPF</label>
+                    <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+                </div>
+                <div class="form-group col-sm-4 cold-md-4">
+                    <label for="telefone"> Telefone</label>
+                    <input type="text" class="form-control" id="telefone" name="telefone" placeholder="(XX)-XXXX-XXXX"
+                        required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-sm-12 cold-md-12">
+                    <label for="telefone"> Observação:</label>
+                    <input type="text" class="form-control" id="telefone" name="telefone" required>
+                </div>
+            </div>
+            <div class="form-group custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="newsletter" value="sim" checked>
+                <label class="custom-control-label" for="newsletter">Quero receber Newsletter da Mirror Fashion</label>
+            </div>
+
+        </form>
+
+        <button type="submit" class="btn btn-primary mb-3">
+            <span class="oi oi-thum-up"></span> Confirmar Pedido
+        </button>
+
+    </div>
+</div>
+
+</body>
+
+</html>
